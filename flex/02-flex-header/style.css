@@ -23,3 +23,43 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+/* My solution */
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+/* .header > * {
+  flex-grow: 1;
+} */
+
+/* .left-links > ul,
+.right-links > ul {
+  display: flex;
+  gap: 15px;
+}
+
+.left-links > ul {
+  justify-content: flex-start;
+}
+
+.right-links > ul {
+  justify-content: flex-end;
+}
+
+.logo {
+  margin: 10px;
+  padding: 10px;
+  flex-grow: 0;
+} */
